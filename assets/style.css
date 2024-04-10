@@ -4,20 +4,36 @@
 }
 
 body {
-font-family:Arial, Helvetica, sans-serif
+font-family: Arial, Helvetica, sans-serif
 }
+
+/*------------------ NAV STYLING ------------------*/
 
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 0px;
     font-size: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    background-color: ;                          /* NEEDS COLOR */
+    padding: 2% 3% 4% 25%;
+    margin-left: -40%;
+    flex-grow: -7;
+    color: ;                                         /* NEEDS COLOR */
+    border-radius: 25px;
+
 }
 
 .Nav-links {
     display: flex;
     flex-wrap: wrap;
+    margin-right: -180px;
     max-width: 750px;
     gap: 2rem;
     font-size: 20px;
@@ -29,6 +45,30 @@ a {
 }
 
 a:hover {
+    transition-duration: 0.3s;
     text-shadow: 1px 1px 2px grey;
-    text-decoration: underline;
+    /* text-decoration: underline; */
+}
+
+/*------------------ PROFILE STYLING ------------------*/
+
+section {
+    padding-top: 4%;
+    height: 96%;
+    margin: 0 160px;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.Github_Icon {
+    display: flex;
+
+}
+
+.Github_Icon:hover {
+    
+}
+
+.Profile {
+
 }
