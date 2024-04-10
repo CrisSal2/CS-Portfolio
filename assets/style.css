@@ -22,8 +22,8 @@ nav {
 
 .logo {
     background-color: ;                          /* NEEDS COLOR */
-    padding: 2% 3% 4% 25%;
-    margin-left: -40%;
+    padding: 2% 3% 4% 0%;
+    margin-left: 0;
     flex-grow: -7;
     color: ;                                         /* NEEDS COLOR */
     border-radius: 25px;
@@ -33,7 +33,7 @@ nav {
 .Nav-links {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -180px;
+    /* margin-right: -180px; */
     max-width: 750px;
     gap: 2rem;
     font-size: 20px;
@@ -52,6 +52,12 @@ a:hover {
 
 /*------------------ PROFILE STYLING ------------------*/
 
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
 section {
     padding-top: 4%;
     height: 96%;
@@ -60,15 +66,26 @@ section {
     min-height: fit-content;
 }
 
+.section_text, .intro_text {
+    margin-top: 16px;
+    align-self: center;
+    text-align: center;
+}
+
+/* ICON & PICTURE STYLING */
+
+#Profile_Picture {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
 .Github_Icon {
     display: flex;
-
-}
-
-.Github_Icon:hover {
-    
-}
-
-.Profile {
-
+    justify-content: center;
+    margin-top: 390px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
 }
