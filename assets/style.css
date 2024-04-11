@@ -7,10 +7,13 @@ body {
 font-family: Arial, Helvetica, sans-serif
 }
 
+nav, .Nav-links, #profile, #Profile_Picture, #Github_Icon, #About, #About-Me-Picture, #Projects {
+    display: flex;
+}
+
 /*------------------ NAV STYLING ------------------*/
 
 nav {
-    display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 0px;
@@ -20,17 +23,15 @@ nav {
 }
 
 .logo {
-    background-color: ;                          /* NEEDS COLOR */
     padding: 2% 3% 4% 0%;
+    margin-top: 3rem;
     margin-left: 0;
     flex-grow: -7;
-    color: ;                                         /* NEEDS COLOR */
     border-radius: 25px;
 
 }
 
 .Nav-links {
-    display: flex;
     flex-wrap: wrap;
     /* margin-right: -180px; */
     max-width: 750px;
@@ -51,14 +52,19 @@ a:hover {
     /* text-decoration: underline; */
 }
 
-/*------------------ PROFILE STYLING ------------------*/
+/*------------------ SECTION STYLING ------------------*/
 
-#profile {
-    display: flex;
+#profile, #About {
     justify-content: center;
     gap: 5rem;
-    height: 80vh;
+    height: 100vh;
 }
+
+#Projects {
+    flex-wrap: wrap;
+
+}
+
 section {
     padding-top: 4vh;
     height: 96vh;
@@ -74,17 +80,25 @@ section {
     width: 18rem;
 }
 
+.about_text {
+    margin-top: 1rem;
+}
+
 /* ICON & PICTURE STYLING */
 
-#Profile_Picture {
-    display: flex;
+#Profile_Picture, #About-Me-Picture {
     height: 400px;
     width: 400px;
     margin: auto 0;
 }
 
+.project_images {
+    height: 500px;
+    width: 700px;
+}
+
+
 #Github_Icon {
-    display: flex;
     /* justify-content: center;
     margin-top: 1rem;
     gap: 1rem; */
