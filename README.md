@@ -11,7 +11,7 @@
 
 - Included on the bottom of the webpage is my email address for you to contact me!
 
-Launched webstie link: 
+Launched webstie link: https://crissal2.github.io/CS-Portfolio/
 
-![Webpage Preview](./assets/images/example.png)
+![Webpage Preview](./assets/images/website-preview.png)
 
